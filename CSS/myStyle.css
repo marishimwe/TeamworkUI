@@ -1,0 +1,176 @@
+
+
+header{
+    background: #2b303b;
+    height: 80px;
+    width:100%;
+    display: flex;
+    color:#fff;
+    font-family: 'Pacifico', cursive;
+}
+header h1{
+    padding-left:20px;
+}
+section{
+    background-color: azure;
+    height: 600px;
+    width:100%;    
+}
+
+#signinForm{
+    text-align:center;
+    width:600px;
+    height:400px;
+    margin-left:70px;
+}
+#signinForm h2{
+    font-family: 'Exo 2', sans-serif;
+    font-size:2em;
+}
+#row{
+    
+    padding-top:20px;
+}
+#row input{
+    height:30px;
+    width:250px;
+    border-color: 1px lightslategray;
+    
+}
+.left-side{
+    height:200px;
+}
+.right input{
+    width:250px;
+    height:40px;
+    border-radius:5px;
+    background-color:lightblue;
+    text-align: center;
+    
+}
+.right p{
+    color:red;
+}
+#sign{
+    display:none;
+}
+#header{
+    width:300px;
+    margin-left:200px;
+    padding-top:10px;
+}
+#header ,#signinForm{
+    float:left;
+    display:inline-block;
+}
+.text{
+    font-family: 'Manjari', sans-serif;
+}
+.text button{
+    width:150px;
+    height:30px;
+    background-color:lightblue;
+}
+.side button{
+    width:250px;
+    height:40px;
+    border-radius:5px;
+    background-color:lightblue;
+    text-align: center;
+    margin-top:20px;
+}
+.userName p{
+    font-family: 'Hepta Slab', serif;
+}
+.feeds{
+    width:600px;
+    text-align:center;
+    margin-left:200px;
+}
+.feeds h1{
+    font-family: 'Hepta Slab', serif;
+}
+
+.text2 textarea{
+    width:400px;
+    border-radius:5px;
+    margin-top:10px;
+    height:50px;
+}
+
+
+
+form.share textarea {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    height:50px;
+    width: 520px;
+    background: #f1f1f1;
+  }
+
+
+
+.me a{
+    font-family: 'Gayathri', sans-serif;
+    text-decoration:none;
+}
+#comment textarea{
+    border-radius:40px;
+    width:200px;
+}
+
+.members-list{
+    display:none;
+}
+form.share input{
+    float:right;
+    width:80px;
+    margin-top:10px;
+    height:50px;
+    background-color: #2196F3;
+    border-left: none;
+    border: 1px solid grey;
+    color: white;
+}
+ 
+form.searchbox input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    height:40px;
+    width: 200px;
+    background: #f1f1f1;
+    cursor: pointer;
+  }
+
+form.searchbox button {
+    float: left;
+    width: 50px;
+    padding: 10px;
+    background: grey;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+  }
+  
+form.searchbox button:hover {
+    background: #0b7dda;
+  }
+  
+
+form.searchbox::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.search{
+    height:170px;
+    margin-left:200px;
+}
+.feeds,.search{
+    display:inline-block;
+}
