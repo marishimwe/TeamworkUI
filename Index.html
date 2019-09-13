@@ -1,0 +1,73 @@
+<!DOCTYPE>
+<html>
+<head>
+<title>TeamWork</title>
+<link rel="stylesheet" href="CSS/myStyle.css">
+<link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+<script  type ="text/javascript" src="Javascript/MyScript.js"></script>
+
+</head>
+<body>
+   <header>
+       <div class="logo">
+           <h1>TEAMWORK</h1>
+       </div>
+   </header>
+   <section>
+       <div id="signinForm" class="tabContent">
+            <h2>Sign in with Teamwork and share your ideas!</h2>
+            <form class="pure-form" id="user-form">
+                        <div class="left-side">
+                            <div id="row">
+                                <input type="text" placeholder="enter username" id="displayname">
+                            </div>
+                            <div id="row">
+                                 <input type= "password" placeholder="enter password"  id="password" >
+                             </div>
+                             
+                             <div class="right">
+                                    <p id="demo"></p>
+                                 <input type="button" value="Login" id="submit" onclick="login()"/>
+                              </div>
+                        </div>
+                </form>
+        </div>
+        <div id="header">
+                <div class="text">
+                    <p>First Time 
+                    <button onclick="signup()" id="signButton">Create account</button></p>
+                </div>
+                <div id="sign">
+                <form class="signupform" id="form">
+                        <div class="signup">
+                            <div class="right-side">
+                                <div id="row">
+                                    <input type="text" placeholder="Firstname" id="Fname">
+                                </div>
+                                <div id="row">
+                                        <input type="text" placeholder="Lastname" id="Lname">
+                                </div>
+                                <div id="row">
+                                        <input type="text" placeholder="Email" id="mail">
+                                </div>
+                                <div id="row">
+                                        <input type="text" placeholder="username" id="user">
+                                </div>
+                                <div id="row">
+                                        <input type="text" placeholder="password" id="pass">
+                                </div>
+                                
+                            </div>
+                            <div class="side">
+                                <button 
+                                    type="submit" 
+                                    class="button-secondary">Create account</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                </div>
+    </section>
+
+</body>
+</html>
